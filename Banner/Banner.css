@@ -1,0 +1,15 @@
+/* CSS Flexbox e Gradientes */
+.banner-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #ee1515, #b30000);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.banner-subtitulo {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}

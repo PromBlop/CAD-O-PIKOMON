@@ -1,0 +1,34 @@
+/* Pokemon Card Styles */
+.pokemon-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 200px;
+    :hover {
+        transform: translateY(-6px);
+    }
+    list-style: none;
+    padding: 0;
+
+    .type-badge {
+        border-radius: 16px;
+        font-weight: bold;
+}
+    .type-fire {
+        background-color: 	#FF0000;
+        color: #ffffff;
+    }
+        .type-water {
+        background-color: #007efc;
+        color: #ffffff;
+
+    }
+        .type-grass {
+        background-color: #5dfd00;
+        color: #ffffff;
+
+    }
+        .type-electric {
+        background-color: #fce300;
+        color: #ffffff;
+    }
+}
