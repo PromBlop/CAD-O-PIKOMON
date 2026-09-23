@@ -6,7 +6,9 @@ import './App.css'
 import { Banner } from '../Banner/Banner'
 import { PerfilDev } from '../PerfilDev/PerfilDev'
 import { Header } from '../Header/Header'
-import { PokemonCard} from '../PokemonCard/PokemonCard'
+import { PokemonCard } from '../PokemonCard/PokemonCard'
+import { PokemonGrid } from '../PokemonGrid/PokemonGrid'
+import { Pikamon } from '../pokemon'
 
 
 function App() {
@@ -34,6 +36,20 @@ function App() {
     name: "Bulbasaur",
     types: ["Grass"],
     image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+  };
+
+  const vaporeon = {
+    id: 134,
+    name: "vaporeon",
+    types: ["Water"],
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  };
+
+  const flareon = {
+    id: 136,
+    name: "flareon",
+    types: ["Fire"],
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
   };
 
   <div className="cards-grid">
