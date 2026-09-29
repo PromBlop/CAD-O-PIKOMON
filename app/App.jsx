@@ -1,15 +1,25 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-import { Banner } from '../Banner/Banner'
-import { PerfilDev } from '../PerfilDev/PerfilDev'
-import { Header } from '../Header/Header'
-import { PokemonCard } from '../PokemonCard/PokemonCard'
-import { PokemonGrid } from '../PokemonGrid/PokemonGrid'
-import { Pikamon } from '../pokemon'
+import { useState } from 'react';
+import heroImg from './assets/hero.png';
+import reactLogo from './assets/react.svg';
+import viteLogo from './assets/vite.svg';
+import './App.css';
+import { Banner } from '../Banner/Banner';
+import { PerfilDev } from '../PerfilDev/PerfilDev';
+import { Header } from './Header';
+import { Footer } from './Footer';
+import { PokemonGrid } from './PokemonGrid';
+import { PokemonCard } from '../PokemonCard/PokemonCard';
+import { Pikamon } from '../pokemon';
 
+export function App() {
+  return (
+    <div className="app-container">
+      <Header />
+      <PokemonGrid />
+      <Footer />
+    </div>
+  );
+}
 
 function App() {
   const [count, setCount] = useState(0)
