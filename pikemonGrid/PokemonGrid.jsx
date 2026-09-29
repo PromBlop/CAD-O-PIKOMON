@@ -1,8 +1,13 @@
-import { PokemonCard } from "../PokemonCard/PokemonCard";
-import { pikamon } from "../pokemon.js";
+import { PokemonCard } from './PokemonCard';
+import { pokemonsIniciais } from './pokemons';
+import './PokemonGrid.css';
 
-<main Classname="pokemon-grid">
-    <div className="map">
-        <PokemonCard key={pokemon.id} pokemon={pokemon} />
-    </div>
-</main>
+export function PokemonGrid() {
+    return (
+        <main className="pokemon-grid">
+            {pokemonsIniciais.map((pokemon) => (
+                <PokemonCard key={pokemon.id} pokemon={pokemon} />
+            ))}
+        </main>
+    );
+}
