@@ -1,0 +1,63 @@
+/* Pokemon Card Styles */
+.pokemon-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 200px;
+    :hover {
+        transform: translateY(-6px);
+    }
+    list-style: none;
+    padding: 0;
+
+    .type-badge {
+        border-radius: 16px;
+        font-weight: bold;
+}
+    .type-fire {
+        background-color: 	#FF0000;
+        color: #ffffff;
+    }
+        .type-water {
+        background-color: #007efc;
+        color: #ffffff;
+
+    }
+        .type-grass {
+        background-color: #5dfd00;
+        color: #ffffff;
+
+    }
+        .type-electric {
+        background-color: #fce300;
+        color: #ffffff;
+    }
+}
+
+.card-acoes {
+    border-top: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 1rem 1rem;
+}
+
+.btn-shiny {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn-shiny:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+.pokemon-card.shiny {
+    border: 2px solid #f59e0b;
+    box-shadow: 0 0 0 3px #fef3c7;
+}
