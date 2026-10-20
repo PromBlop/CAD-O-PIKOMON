@@ -38,6 +38,6 @@ export function Footer() {
   <button>
     className={`btn-favorito ${isFavorite ? 'favoritado' : ''}`}
     onClick={() => setIsFavorite(!isFavorite)}
-    {isFavorite ? '❤️' : '🤍'}
+    {isFavorite ? '🧐' : '🔥'}
     </button>
 </footer>
