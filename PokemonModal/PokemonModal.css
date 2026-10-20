@@ -1,4 +1,3 @@
-/* NAV de abas */
 .modal-tabs-nav {
     display: flex;
     border-bottom: 2px solid #e2e8f0;
@@ -21,7 +20,6 @@
     color: #0f172a;
 }
 
-/* O ternário do JSX liga esta classe em quem for a aba escolhida */
 .tab-btn.active {
     color: #dc2626;
     box-shadow: inset 0 -3px 0 #dc2626;
@@ -40,7 +38,6 @@
     padding: 0 0 1rem;
 }
 
-/* Barras de estatísticas */
 .stat-line {
     display: grid;
     grid-template-columns: 80px 1fr 36px;
@@ -69,7 +66,6 @@
     font-weight: 700;
 }
 
-/* Pílulas de golpes */
 .moves-grid {
     display: flex;
     flex-wrap: wrap;
