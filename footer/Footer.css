@@ -1,0 +1,29 @@
+.Footer-container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+}
+
+.Footer-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Footer-link {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Footer-link:hover {
+  text-decoration: underline;
+}
+
+.Footer-link:focus-visible {
+  outline: 3px solid #38bdf8;
+  outline-offset: 4px;
+}
