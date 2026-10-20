@@ -1,4 +1,3 @@
-/* Pokemon Card Styles */
 .pokemon-card {
     background-color: #ffffff;
     border-radius: 16px;
@@ -32,3 +31,52 @@
         color: #ffffff;
     }
 }
+
+.card-acoes {
+    border-top: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 1rem 1rem;
+}
+
+.btn-shiny {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn-shiny:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+.pokemon-card.shiny {
+    border: 2px solid #f59e0b;
+    box-shadow: 0 0 0 3px #fef3c7;
+}
+
+.btn-favorito {
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer;
+    line-height: 1;
+    transition: transform 0.15s;
+}
+
+.btn-favorito:hover {
+    transform: scale(1.25);
+}
+
+.pokemon-card.favoritado {
+    border: 2px solid #dc2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+
+.pokemon-card { cursor: pointer; }
