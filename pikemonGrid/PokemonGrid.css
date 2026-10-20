@@ -6,3 +6,70 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.loading-container {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #334155
+}
+
+.type-normal {
+    background-color: #a8a878;
+    color: #ffffff;
+}
+
+.type-veneno {
+    background-color: #9f52c8;
+    color: #ffffff;
+}
+
+.type-psiquico {
+    background-color: #f59785;
+    color: #ffffff;
+}
+
+.type-gelo {
+    background-color: #68c8ee;
+    color: #ffffff;
+}
+
+.type-pedra {
+    background-color: #c8b878;
+    color: #ffffff;
+}
+
+.type-fantasma {
+    background-color: #6a6aa8;
+    color: #ffffff;
+}
+
+.type-voador {
+    background-color: #a8a8f8;
+    color: #333333;
+}
+
+.type-inseto {
+    background-color: #a8b828;
+    color: #ffffff;
+}
+
+.type-dragao {
+    background-color: #7038f8;
+    color: #ffffff;
+}
+
+.type-lutador {
+    background-color: #c82878;
+    color: #ffffff;
+}
+
+.type-solo {
+    background-color: #d8bc78;
+    color: #333333;
+}
+
+.no-results {
+    text-align: center;
+    color: #64748b;
+    padding: 3rem 1rem;
+}
