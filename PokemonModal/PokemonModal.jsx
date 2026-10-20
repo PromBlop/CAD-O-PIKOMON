@@ -2,12 +2,9 @@ import { useState } from 'react';
 import './PokemonModal.css';
 
 export function PokemonModal({ pokemon, onClose }) {
-    // O interruptor de 3 posições: começa em "Sobre"
     const [activeTab, setActiveTab] = useState('about');
 
     const { id, name, types, image, height, weight, abilities, moves, stats } = pokemon;
-
-    // DRY: 6 linhas de stat geradas de um array com .map() (Step 05 trabalhando de novo!)
     const barrasDeStats = [
         { rotulo: 'HP', valor: stats.hp },
         { rotulo: 'Ataque', valor: stats.attack },
@@ -30,7 +27,7 @@ export function PokemonModal({ pokemon, onClose }) {
                     </figure>
                 </header>
 
-                {/* NAV das abas: 3 botões, 1 classe ativa por vez */}
+                
                 <nav className="modal-tabs-nav" aria-label="Seções da ficha">
                     <button
                         className={`tab-btn ${activeTab === 'about' ? 'active' : ''}`}
@@ -52,7 +49,7 @@ export function PokemonModal({ pokemon, onClose }) {
                     </button>
                 </nav>
 
-                {/* PAINÉIS: cada && só mostra o seu quando é o escolhido */}
+                
                 <main className="modal-tab-content">
                     {activeTab === 'about' && (
                         <div className="tab-pane">
